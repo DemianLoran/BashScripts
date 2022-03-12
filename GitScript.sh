@@ -112,7 +112,7 @@ function git_Status(){
 
 function git_Commit(){
     clear
-    git commit -m '$argumento1'
+    git commit -m "'$argumento1'"
     exitt
 }
 
